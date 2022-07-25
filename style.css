@@ -3,7 +3,7 @@ body{
 }
 #canvas{
     position: absolute;
-    border:2px solid white;
+    border:2px solid rgb(195, 41, 41);
     width: 800px;
     height: 700px;
     transform: translate(-50%, -50%);
