@@ -52,3 +52,32 @@ const ctx = canvas.getContext("2d");
 ```
 
 these texts were found by a man clothed in stail brown and primarily leather. a hat to keep both the scorching rays of the never ending swirl of heat millions of spans away and the dust from collecting on his almost fully balded head. clubbed boots, fully bedusted again brown and leathery pants that only partially covered his sandy legs (fancy way of saying shorts) and glasses almost as thick as bubble glass used in Radiances as they tend to bounce of surfaces trying to dock and depart from its stations. His thick mustache, blushing and drunken nose and smiley grin that could make you laugh only by looking once is what makes him hated in the community of Radianceers (archiologists). At last, a red scarf should finish the image. I hope you got a picture of him in your head, because to that picture you should attach the name "Im'Khar". He will be providing ous with these texts as soon as he finds them. however the translations are sometimes vague and hard to uderstand. But he'll do his utter and mostest of drunkest best.
+
+## Chapter Two:
+
+### The Continuous Scroll
+
+With the setup of the new world entity and the constraints of that same being, i left everything else to Im'Khar and the stableboy. There knowlege about the ancient texts are good enough to figure the enigma out. Im'Khar, while grabbing another Razoo to quench his undying thirst to douse himself with gloom to never feel the unforgettable and raucous state of So'Ber, figured out that now the creation is set up he would need to find new texts to make the Mighty Side Scroll. The stableboy was leaning against the outside cave wall with a piece of very old and withered foliage between his marbled teeth. He wore a hat, flat at the front that got more rounder the more you moved your eyes to the back or top of his head, entirely made of straw. Brown hair, short and roughly cut as if the cutting of it had to be done quick and saw no revisions. He wore a grey shirt with faint blueish hues that opened neer the colar. Red suspenders lounged on top with gold trimmings and symbols, relaxing under the radiance. An unperticularly dark pair of shorts, black thick shoes that've seen distances far off and a withered red scarf to finish the picture. Slightly humming to himself the vague melody he heared the beautiful Sandara Theatricus performe 3 dark spans before this very minute, still etched in his mind. It wasn't perfect but any villager of Sandara would compliment him emediatly on getting it as close as he has from only hearing it ones.
+
+```js
+const CANVAS_WIDTH = (canvas.width = 800);
+const CANVAS_HEIGHT = (canvas.height = 700);
+let gameSpeed = 6;
+
+// init the background images
+const backGroundOne = new Image();
+backGroundOne.src = "images/11_background.png";
+const backGroundTwo = new Image();
+backGroundTwo.src = "images/10_distant_clouds.png";
+
+//recursive loop that keep drawing the backGround
+let x = 0;
+function animate() {
+  ctx.clearRect(0, 0, CANVAS_WIDTH, CANVAS_HEIGHT);
+  ctx.drawImage(backGroundTwo, x, 0);
+  if (x < -2000) x = 800;
+  else x -= gameSpeed;
+  requestAnimationFrame(animate);
+}
+animate();
+```
