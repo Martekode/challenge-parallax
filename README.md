@@ -164,6 +164,14 @@ animate();
 
 |...|...| As the cursor of his mind kept blinking he realised what just happened. "Son? What is it? Why do you look as if a ghost of your past just stole your money?" The man was confused at the stone face the kid was wearing weightlessly. "I know..." Hitchhiked the words along his long breath. "You know what....That you lost your mind i suppose, hah!" The last forced out from the Radianceer. "No...I know the inscriptions" The man looked at the boy again with that expression to create a doubled chin. "He's gone mad...Oh i'm a deadman I knew it. Should've left him and run. They would've spared me for that. I could've blamed it on a rampaging Duna'zhute and lived."
 
+# Chapter Four:
+
+## The Funders Radiant Standing
+
+(...)
+
+# some reference code
+
 ```js
 const CANVAS_WIDTH = (canvas.width = 800);
 const CANVAS_HEIGHT = (canvas.height = 700);
