@@ -157,3 +157,90 @@ animate();
 ```
 
 implemented it in the animate function
+
+# new structure
+
+```js
+function scrollerLeft(x, imgWidth, reset, speed) {
+  if (x < imgWidth) {
+    return (x = reset);
+  } else {
+    return (x -= speed);
+  }
+}
+function scrollerRight(x, imgWidth, reset, speed) {
+  if (x > imgWidth) {
+    return (x = reset);
+  } else {
+    return (x += speed);
+  }
+}
+function animate() {
+  ctx.clearRect(0, 0, CANVAS_WIDTH, CANVAS_HEIGHT);
+  ctx.drawImage(backGroundOne, backgroundx, -150);
+  ctx.drawImage(BDesert2, backgroundx2, -150);
+  ctx.drawImage(BDesert3, backgroundx3, -150);
+  ctx.drawImage(backGroundFour, hugeCloudx2, 0);
+  ctx.drawImage(backGroundFour, hugeCloudx, 0);
+  //ctx.drawImage(backGroundFive,Dtreesx,-450);
+  //ctx.drawImage(backGroundFive,Dtreesx2,-450);
+  ctx.drawImage(backGroundTwo, x, 0);
+  ctx.drawImage(backGroundThree, cloudx, 0);
+  ctx.drawImage(ship, shipx, 100);
+  const backGroundWidth = -1900;
+  const resetBackGroundWidth = 3800;
+  const imgWidthCloud1 = -2000;
+  const resetCloud1 = 800;
+  const imgWidthCloud2 = -1500;
+  const resetCloud2 = 400;
+  const ImgWidthHugeCloud = -2040;
+  const resetCloudHuge = 2040;
+  // const DtreesWidth = -2000;
+  // const resetDtrees = 2000;
+  const shipWidth = 5000;
+  const resetShip = -130;
+  backgroundx = scrollerLeft(
+    backgroundx,
+    backGroundWidth,
+    resetBackGroundWidth,
+    GENSPEED
+  );
+  backgroundx2 = scrollerLeft(
+    backgroundx2,
+    backGroundWidth,
+    resetBackGroundWidth,
+    GENSPEED
+  );
+  backgroundx3 = scrollerLeft(
+    backgroundx3,
+    backGroundWidth,
+    resetBackGroundWidth,
+    GENSPEED
+  );
+  x = scrollerLeft(x, imgWidthCloud1, resetCloud1, CLOUDSPEED);
+  // if (x < -2000) x= 800;
+  // else x-= CLOUDSPEED;
+  cloudx = scrollerLeft(cloudx, imgWidthCloud2, resetCloud2, CLOUDSPEEDCLOSER);
+  // if(cloudx < -1500) cloudx =400;
+  // else cloudx-=CLOUDSPEEDCLOSER;
+  hugeCloudx = scrollerLeft(
+    hugeCloudx,
+    ImgWidthHugeCloud,
+    resetCloudHuge,
+    GENSPEEDCLOSER
+  );
+  hugeCloudx2 = scrollerLeft(
+    hugeCloudx2,
+    ImgWidthHugeCloud,
+    resetCloudHuge,
+    GENSPEEDCLOSER
+  );
+  //Dtreesx = scrollerLeft(Dtreesx,DtreesWidth,resetDtrees,GENSPEEDCLOSER);
+  //Dtreesx2 = scrollerLeft(Dtreesx2,DtreesWidth,resetDtrees,GENSPEEDCLOSER);
+  shipx = scrollerRight(shipx, shipWidth, resetShip, SHIPSPEED);
+  requestAnimationFrame(animate);
+}
+animate();
+```
+
+scroller right and left are seprate functions now.
