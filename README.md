@@ -77,7 +77,92 @@ The heat radiated on his cheeks as his eye lids warmed under her gaze. Just the 
 
 When he woke, he found himself in a warm bed and her rays were poking through the blinds right in his eyes as if to wake him. He was sore all over and moved his eyes to his hand as a reflex because of a stinging pain right on the top part of his hand, above his knuckles. He saw a speck of black ink on it and as his vision focused more after a long and well needed nap, he saw the mark. The same mark that give him immense pain in the cave and after that he... He couldn't remember. As far as he knew he feinted and all was void after that, unknowing how accurate he was. The mark didn't cause him pain anymore, except for the continues stinging on his hand. Whilest trying to move to the window he had to use a great deal of energy, he was still not fully recoverd. With the blinds open now he could see he was in Bh'Odhar. "Unbeleivable... that beast must've run so fast it's own hooves seared off" He chuckled whilest seeing her Radiancy was up and about in the center of the sky to mark the halflightspan passed. _Did he sleep that long? The entire night and morning?_ His thoughts abrupted by the knocking on the door. The boy went to the peaky hole in the door and saw the drunken Radianceer looking to his left and right in uneasiness. He opened the door and the man came darting in. "Oh thank god, you're awake kid" The man said with a big sigh of exhaustion whilst almost stumbling over the little one inch border of wood at the bottom of the doorframe. "Radiance smite it!" He bellowed. "These stupid dune Tocklers are worth nothing nowadays... Radiance..!" Tocklers are builders and dune tocklers are ones that specialised in building in loose sands, he reminded himself of the time he first came to these lands and knew nothing. The man seemed in a hurried and bad mood wich was not unusual for the Razoo crazed oaf but the unusual was his lack of it. It seemed as if he hadn't had a drink yet. He should've been the delight he was known to be in the mornings before he starts his shift as drainpipe. Ohaka chuckled at his ow thoughts. "What's so funny kid?" The man belted. "I've been running around town for days to get some help to get you awake, getting in all sorts of trouble and when your finally wake you're going to smicker at me? Boy, I'm loosing my marbles here." He was pacing up and down the bedroom, realising for the first time he had marbles.
 
-"What in ways of the golden swirl actually happened kid?" Im'Khar asked when he sat down in the wooden chair at the side of the bed, which wobbled, and looked at it with a feint smirk as if it deserved all the insults in the world. "These tocklers..." He muttered under his breath an looked inpatiently at Ohoka. "I.. I don't know, I asked you first." The boy said with an unsteady voice."Yu..You asked me first?" The man said in disbeleive. "Boy, I was shouting above your body even before you could lift a finger... I'm the one that pulled you out of that Mighted cave!" He didn't mean mighted in a good way, for man of his beleive this was an unradiant curse to paste on to someone or something. "All I know, kid, is that I heard you scream as if you were dying and that a quake the size of a full adult Duna'Zhute stomping the ground emerged out of nothing. The cave started shaking, you're lucky I'm a good man when I'm drunk.." He almost didn't beleive it himself." They looked at eachother in limpness and stiffness at the same time from full exhaustion. "What happened inside it , kid? The cave." He finally let out to dumb it down a bit as if it were the last of his energy. "I .. Oke, I saw a wall with inscriptions and..." He was stopped by the look and following question of Im'Khar: "Did you get any pictures? Say that you took some pictures." "Pi..Pictures? Pictures?! Y..I couldn't have taken any pictures! You threw my lightcatcher at the rocks because you got lost and out of nowhere you just grabbed and tossed it. It was the most random thing you did for the time I was with you. I still don't inderstand it." Ohaka said that last sentence with the last of air in his lungs as if to press the last of the fluid out of a seringe. The man looked at him as if deliberately making a dubble chin. He pouched his mouth and said: "No. That did not happen. Now you're lieing." The boy, defeated as he was, knew that it was no use arguing with the man about his drunken episodes. "Anyway no pictures!" The boy made sure to the man. the radianceer looking down as if that would make things a bit easier.
+"What in ways of the golden swirl actually happened kid?" Im'Khar asked when he sat down in the wooden chair at the side of the bed, which wobbled, and looked at it with a feint smirk as if it deserved all the insults in the world. "These tocklers..." He muttered under his breath an looked inpatiently at Ohoka. "I.. I don't know, I asked you first." The boy said with an unsteady voice."Yu..You asked me first?" The man said in disbeleive. "Boy, I was shouting above your body even before you could lift a finger... I'm the one that pulled you out of that Mighted cave!" He didn't mean mighted in a good way, for man of his beleive this was an unradiant curse to paste on to someone or something. "All I know, kid, is that I heard you scream as if you were dying and that a quake the size of a full adult Duna'Zhute stomping the ground emerged out of nothing. The cave started shaking, you're lucky I'm a good man when I'm drunk.." He almost didn't beleive it himself." They looked at eachother in limpness and stiffness at the same time from full exhaustion. "What happened inside it , kid? The cave." He finally let out to dumb it down a bit as if it were the last of his energy. "I .. Oke, I saw a wall with inscriptions and..." He was stopped by the look and following question of Im'Khar: "Did you get any pictures? Say that you took some pictures." "Pi..Pictures? Pictures?! Y..I couldn't have taken any pictures! You threw my lightcatcher at the rocks because you got lost and out of nowhere you just grabbed and tossed it. It was the most random thing you did for the time I was with you. I still don't inderstand it." Ohaka said that last sentence with the last of air in his lungs as if to press the last of the fluid out of a seringe. The man looked at him as if deliberately making a dubble chin. He pouched his mouth and said: "No. That did not happen. Now you're lieing." The boy, defeated as he was, knew that it was no use arguing with the man about his drunken episodes. "Anyway no pictures!" The boy made sure to the man. the radianceer looking down as if that would make things a bit easier. "It was covered with crumbled boulders and i tried to move them. When I almost finfished ans saw a mark on one of the boulders, a burning pain entered me. I couldn't choose where to move, i was moving by myself trying to escape the pain and before I knew it all was dark." A sudden flash of code struck his cortex. _Sudo apt-get update...done. Sudo apt-get upgrade.......................done._
+
+```js
+function scrollerLeft(x, imgWidth, reset, speed) {
+  if (x < imgWidth) {
+    return (x = reset);
+  } else {
+    return (x -= speed);
+  }
+}
+function scrollerRight(x, imgWidth, reset, speed) {
+  if (x > imgWidth) {
+    return (x = reset);
+  } else {
+    return (x += speed);
+  }
+}
+function animate() {
+  ctx.clearRect(0, 0, CANVAS_WIDTH, CANVAS_HEIGHT);
+  ctx.drawImage(backGroundOne, backgroundx, -150);
+  ctx.drawImage(BDesert2, backgroundx2, -150);
+  ctx.drawImage(BDesert3, backgroundx3, -150);
+  ctx.drawImage(backGroundFour, hugeCloudx2, 0);
+  ctx.drawImage(backGroundFour, hugeCloudx, 0);
+  //ctx.drawImage(backGroundFive,Dtreesx,-450);
+  //ctx.drawImage(backGroundFive,Dtreesx2,-450);
+  ctx.drawImage(backGroundTwo, x, 0);
+  ctx.drawImage(backGroundThree, cloudx, 0);
+  ctx.drawImage(ship, shipx, 100);
+  const backGroundWidth = -1900;
+  const resetBackGroundWidth = 3800;
+  const imgWidthCloud1 = -2000;
+  const resetCloud1 = 800;
+  const imgWidthCloud2 = -1500;
+  const resetCloud2 = 400;
+  const ImgWidthHugeCloud = -2040;
+  const resetCloudHuge = 2040;
+  // const DtreesWidth = -2000;
+  // const resetDtrees = 2000;
+  const shipWidth = 5000;
+  const resetShip = -130;
+  backgroundx = scrollerLeft(
+    backgroundx,
+    backGroundWidth,
+    resetBackGroundWidth,
+    GENSPEED
+  );
+  backgroundx2 = scrollerLeft(
+    backgroundx2,
+    backGroundWidth,
+    resetBackGroundWidth,
+    GENSPEED
+  );
+  backgroundx3 = scrollerLeft(
+    backgroundx3,
+    backGroundWidth,
+    resetBackGroundWidth,
+    GENSPEED
+  );
+  x = scrollerLeft(x, imgWidthCloud1, resetCloud1, CLOUDSPEED);
+  // if (x < -2000) x= 800;
+  // else x-= CLOUDSPEED;
+  cloudx = scrollerLeft(cloudx, imgWidthCloud2, resetCloud2, CLOUDSPEEDCLOSER);
+  // if(cloudx < -1500) cloudx =400;
+  // else cloudx-=CLOUDSPEEDCLOSER;
+  hugeCloudx = scrollerLeft(
+    hugeCloudx,
+    ImgWidthHugeCloud,
+    resetCloudHuge,
+    GENSPEEDCLOSER
+  );
+  hugeCloudx2 = scrollerLeft(
+    hugeCloudx2,
+    ImgWidthHugeCloud,
+    resetCloudHuge,
+    GENSPEEDCLOSER
+  );
+  //Dtreesx = scrollerLeft(Dtreesx,DtreesWidth,resetDtrees,GENSPEEDCLOSER);
+  //Dtreesx2 = scrollerLeft(Dtreesx2,DtreesWidth,resetDtrees,GENSPEEDCLOSER);
+  shipx = scrollerRight(shipx, shipWidth, resetShip, SHIPSPEED);
+  requestAnimationFrame(animate);
+}
+animate();
+```
+
+|...|...| As the cursor of his mind kept blinking he realised what just happened. "Son? What is it? Why do you look as if a ghost of your past just stole your money?" The man was confused at the stone face the kid was wearing weightlessly. "I know..." Hitchhiked the words along his long breath. "You know what....That you lost your mind i suppose, hah!" The last forced out from the Radianceer. "No...I know the inscriptions" The man looked at the boy again with that expression to create a doubled chin. "He's gone mad...Oh i'm a deadman I knew it. Should've left him and run. They would've spared me for that. I could've blamed it on a rampaging Duna'zhute and lived."
 
 ```js
 const CANVAS_WIDTH = (canvas.width = 800);
