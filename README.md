@@ -1,8 +1,6 @@
-# challenge-parallax
+# The first book in _The Fishermen_ series.
 
-[woooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooot](https://martekode.github.io/challenge-parallax/).
-
-## The Empire of Radiance
+## [Book One: Radiant](https://martekode.github.io/challenge-parallax/).
 
 ## introduction
 
