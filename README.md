@@ -6,9 +6,9 @@
 
 Today we were given the challenge of making a parallax. we were given a lot of freedom which is both good and bad. good bacause it lets ous think for ourselves, but with an equal part bad because when given the world, many crumble under it's weight. So because the weight felt overwhelming i started looking for some ideas and spent too much time thinking. after a burst of equal frustration as impatians i just gave myself the task of making an endless scrolling background to begin with. Because time is limited and as many limits in this world are breakable, time finds itself in the way of that breaking infinitly and unmoveably. However time has an other property and that is it's stretchability, but we'll get into that later.
 
-## So let's move to task one:
+## Interlude:
 
-i found that the easiest method to do this is going to involve the canvas in some way or another so i established that i will go for the "CANVAS" method. This involves a canvas-tag in html that let's you display pixels in a box. atleast that is the (breakable) limit to my understanding of this vivid concept. offcourse the always repeated creating and initialising of the starting files happened first, the creation of this sentence questioning it's relevence as it is always repeated and well known. I gave the background of the body the dark and voided tint of the much seen black, the canvas by assosciation was given a white border with a girth of no more and no less then 3 pixels. This distinction will reveal many things. the placement of the newly born entity called canvas, the spans wide of it's existance and the heights it now can reach with dreams to release it's tethers to this world. To position the shreekly crying canvas in this empty and voided world we used the ultimate absolution of the placement itself. everything will happen within the unbendable framing of the window we look through that shoot back colorfull glimpses of this freshly boomed world. underneath this passage i will provide text that is long lost. some say it was the language of the Co 'm Puters folk that many beleive to be extinct. How they became unmade is for many an even looser beleive. The talkings involving it always involve a cataclisme of some sorts. The Great Whipeage is the most common name for it. Sinds the earliest that could be remembered and was told further, that name stood as the primary information about it. because it describes and it displays and it tells more then the other two, the essence.
+underneath this passage i will provide text that is long lost. some say it was the language of the Co'Ehm that many beleive to be extinct. How they became unmade is for many an even looser beleive. The talkings involving it always involve a cataclisme of some sorts. The Great Whipeage is the most common name for it. Sinds the earliest that could be remembered and was told further, that name stood as the primary information about it. because it describes and it displays and it tells, more then the other two, the essence. Much was lost in this destructfull age. Cultures, lives, structure, but most of all knowlege. Only slivers remained spread around the world and some lives too. After many millennia rebuilding their way of living, the inhabitants maneged to to so. But at what cost... What they lost and the chaos that ensued after The Great Whipeage were both unimaginable. Lords became and Dames rose, city crafted and tinkered down again. Lives gained overall but also many lost. But what persevered was there hunger for the past and their way of living. Cultures were again formed because of these risings and falls. Religions above all, with all the knowlege lost those too lingered on and became monolithic. Some stories stayed too. Some about the new ages and also some about both the Destruction and before. Stories of water endless and full of life, great cities atop of water hummingly along floating. Adventurers and warriors that traveled the seas and oceans and lakes of all colors imaginable. But most importantly about a Fisherman...
 
 texts found in the tombs of Canv 'As located in the Can Var province at the border of Bh'Ody, 900 -AW of the third age.
 
@@ -51,7 +51,7 @@ const ctx = canvas.getContext("2d");
 
 these texts were found by a man clothed in stail brown and primarily leather. a hat to keep both the scorching rays of the never ending swirl of heat millions of spans away and the dust from collecting on his almost fully balded head. clubbed boots, fully bedusted again brown and leathery pants that only partially covered his sandy legs (fancy way of saying shorts) and glasses almost as thick as bubble glass used in Radiances as they tend to bounce of surfaces trying to dock and depart from its stations. His thick mustache, blushing and drunken nose and smiley grin that could make you laugh only by looking once is what makes him hated in the community of Radianceers (archiologists). At last, a red scarf should finish the image. I hope you got a picture of him in your head, because to that picture you should attach the name "Im'Khar". He will be providing ous with these texts as soon as he finds them. however the translations are sometimes vague and hard to uderstand. But he'll do his utter and mostest of drunkest best.
 
-## Chapter Two:
+## Chapter One:
 
 ### The Blessing of The Cave
 
@@ -69,7 +69,7 @@ _Ohoka was drifting in a pool fighting the reflection of tints of Ruby and Midni
 
 ---
 
-## Chapter Three:
+## Chapter Two:
 
 ### The Ancient Power stirrs
 
@@ -164,7 +164,7 @@ animate();
 
 |...|...| As the cursor of his mind kept blinking he realised what just happened. "Son? What is it? Why do you look as if a ghost of your past just stole your money?" The man was confused at the stone face the kid was wearing weightlessly. "I know..." Hitchhiked the words along his long breath. "You know what....That you lost your mind i suppose, hah!" The last forced out from the Radianceer. "No...I know the inscriptions" The man looked at the boy again with that expression to create a doubled chin. "He's gone mad...Oh i'm a deadman I knew it. Should've left him and run. They would've spared me for that. I could've blamed it on a rampaging Duna'zhute and lived."
 
-# Chapter Four:
+# Chapter Three:
 
 ## The Funders Radiant Standing
 
