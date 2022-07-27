@@ -8,6 +8,7 @@ const CLOUDSPEEDCLOSER=4;
 const GENSPEED=1;
 const GENSPEEDCLOSER = 2;
 const SHIPSPEED = 20;
+const PLAYERSPEED = 10;
 
 
 
@@ -91,33 +92,36 @@ function animate() {
     //Dtreesx2 = scrollerLeft(Dtreesx2,DtreesWidth,resetDtrees,GENSPEEDCLOSER);
     shipx = scrollerRight(shipx,shipWidth,resetShip,SHIPSPEED);
     requestAnimationFrame(animate);
+}
+function init(){
     window.addEventListener("keydown", (event)=>{
         if(event.keyCode === 68){
             event.preventDefault();
             console.log("lala");
-            playerx++;
+            playerx+= PLAYERSPEED;
         }
     })
     window.addEventListener("keydown", (event)=>{
         if(event.keyCode === 81){
             event.preventDefault();
             console.log("lala");
-            playerx--;
+            playerx-= PLAYERSPEED;
         }
     })
     window.addEventListener("keydown", (event)=>{
         if(event.keyCode === 83){
             event.preventDefault();
             console.log("lala");
-            playery++;
+            playery+= PLAYERSPEED;
         }
     })
     window.addEventListener("keydown", (event)=>{
         if(event.keyCode === 90){
             event.preventDefault();
             console.log("lala");
-            playery--;
+            playery-= PLAYERSPEED;
         }
     })
 }
+init();
 animate();
