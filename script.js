@@ -28,6 +28,8 @@ const backGroundFive = new Image();
 backGroundFive.src = 'images/03_distant_trees.png';
 const ship = new Image();
 ship.src = 'images/ship-05.png';
+const playerSprite = new Image();
+playerSprite.src = 'images/Fisherman_idle.png'
 //recursive loop that keep drawing the backGround
 let x = 0;
 let backgroundx=0;
@@ -39,6 +41,8 @@ let Dtreesx = 0;
 let Dtreesx2 = 2000;
 let cloudx=0;
 let shipx = -130;
+let playerx = 0;
+let playery =0;
 function scrollerLeft(x,imgWidth,reset,speed) {
     if (x < imgWidth) {return x = reset;}
     else {return x -= speed;}
@@ -59,6 +63,7 @@ function animate() {
     ctx.drawImage(backGroundTwo,x,0);
     ctx.drawImage(backGroundThree,cloudx,0)
     ctx.drawImage(ship,shipx,100);
+    ctx.drawImage(playerSprite, 0 , 0 ,playerSprite.width / 4, playerSprite.height,playerx,playery,playerSprite.width,playerSprite.height * 2);
     const backGroundWidth = -1900;
     const resetBackGroundWidth = 3800;
     const imgWidthCloud1  = -2000;
@@ -86,5 +91,33 @@ function animate() {
     //Dtreesx2 = scrollerLeft(Dtreesx2,DtreesWidth,resetDtrees,GENSPEEDCLOSER);
     shipx = scrollerRight(shipx,shipWidth,resetShip,SHIPSPEED);
     requestAnimationFrame(animate);
+    window.addEventListener("keydown", (event)=>{
+        if(event.keyCode === 68){
+            event.preventDefault();
+            console.log("lala");
+            playerx++;
+        }
+    })
+    window.addEventListener("keydown", (event)=>{
+        if(event.keyCode === 81){
+            event.preventDefault();
+            console.log("lala");
+            playerx--;
+        }
+    })
+    window.addEventListener("keydown", (event)=>{
+        if(event.keyCode === 83){
+            event.preventDefault();
+            console.log("lala");
+            playery++;
+        }
+    })
+    window.addEventListener("keydown", (event)=>{
+        if(event.keyCode === 90){
+            event.preventDefault();
+            console.log("lala");
+            playery--;
+        }
+    })
 }
 animate();
