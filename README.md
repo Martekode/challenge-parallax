@@ -172,6 +172,9 @@ animate();
 
 After Im'Khar left and shut the door he grabbed his clothers that were neatly folded on the wall-wide cupboard. He fitted the normal day rags over his body and finished with the silent stare at his crimson scarf and wrapped it around his neck. He turned to the door and held his unexpecting hand towards the door to open it and found it creek open by itself. When walking through the doorframe he looked intensively at the hinges and the framework to spot anything wrong. He saw nothing and just exclaimed: "Bloody tocklers..." and ran downstairs. The man was sitting at the bar of the inn. The man behind the bar was talking to the Radianceer, but the normally drunken man was not listnening. Rather he was eyeing the box of Razoo that just came in as delivery. "You want a drink sir?" The bartender asked as if it wasn't the first time. The inn was made primarily out of old but ligtly colored and smooth plastery. Plastery was a substance created to mimic wood. Sinds wood was so scarce here they had to find something to replace it. It could be anything. The requirements were simple: with a lot of it, it needs to be able to support a great deal of weight and they needed to be able to punch nails into it. That how they came up with this so called plastery. Ohoka didn't know how it exactly was made, but what he knew was that it deffinatly had to do with the soot. This material is why many things in this place was slightly off. It was hard to be accurate with this material because of it's small drawback. In immense heat it would expand a bit, only slight but enough to almost make Im'khar fall on his face when entering a doorframe. Ohoka had to chuckle at the last. The Radianceer turned around at the sound and declared:"Ohn,.. Your here already. I was thinking you would take ages. I was preparing your dose of trashing already. Again nothing personal kid but we have to move, before they find ous." Before the boy could intake the instructions he was wondering of with his vision. He saw a Round room, no corners. in the middle was a table with 3 men and one woman. All older of age, as if they were spending last of there spans playing a game. They were very excited about the game as they were shouting after winning a hand. Ohoka didn't know what game was they were playing but it involved cards and dice. The woman threw the dice with 8 sides, it rolled towards the edge of the table where it's speed decreased. It seemed to stop at the edge before the man to her right blew on the dice trying to be discreat. It was all but discreat. The dice fell off and so did the good mood in the inn. The woman jumped up, her oversized boots let loose of the world and came down crashing on the plastery floor together with her wieght. After that she let out a primal roar: "AAAAAAAAAAAAAAAAhn YOUUU Mighty cheat, you..." "I didn't do anything M'artha, I swear" he said this whilest laughing himself because it was way to obvious. The other men laughed too and reasured M'artha. "Calm down, sis. He's an oaf and you know it. He's jus jo..." He got cut off by his sister and she bellowed de mightiest of insults. Ohoka and the radanceer had to cover their ears. She finished the insults with a threat: "I'm going to skin you and use it to sail the dunes.." The man that did the deed his mouth fell open, almost to the ground and layed his cards down for all to see . He stood up quietly and stept out the inn. "Oh c'mon M'artha now we can't play" Her brother said whilst dropping his hands to the table not letting go of the cards just in case. 
 
+After that the game was finished and so was the excited and good mood. The players sacked in their chairs and drooped their heads down. "M'artha i know that he shouldn't have cheated but what you said was way to far. You know he's afraid of the dunes... Lost his daughter in that chaos. They traveled al the way from Rekthar, they had to cross the entire deserted dunefield to get here. And honestly he payed the ultimate price to get here. He came here to get a better life for his daughter, only to bring her demise. Saying anything about the dunes just reminds them of it." "Well, ohn Bhurthom, that's not my problem... " She said, regretting it deep down but not showing it. "Oke, if you say so, but there aren't many players in this town so if you keep scaring them away we will not be able to play anymore. We need four people M'artha, any less and the game doesn't work and you know that." Bhurthom tried to convince her. "It's I that needs to find him and get him back here in the end. Making it right is the last of your concernes so that leaves only me." The man stood up and also darted for the door, trying to salvage their game. "Well, I guess we'll wait then." The woman came to the conclusion whilest ploffing down to her chair. "Anyway let's go, kid." The Radianceer got up and took the boy by it's colar sinds he kept staring at the table and the now posponed game. They started for the door and Im'Khar made sure to keep a good eye on the doorframe not to trip over it. When they succesfully went through the door the Radianceer let out a psychotic laugh. "HAHAH got you now you...stupid tocklers." everyone in the inn looked and grinned because they knew what he was laughing at, perhaps familiarity is what spawned their curving lips. Ohoka left the inn and saw Romazan standing there, looking. Not only looking, but actually looking in his eyes. And not just looking in his eyes either, only a sliverspan removed from his face. Ohoka jerked his head back in surprise as if he was trying to get underneath an object he didn't see coming. The mule kept her gaze though. "What's up with her?" He asked making a growling noice in his throat. "What? What is up? With who?" Te man replied paying only a quarter of his attention. "Her... The mule, old man" The old man gave him his full attention now with an agressive sigh and turning his head first looking at him and then at the mule. "Nothing, she's in fine shape. Better even, better then other mules that's for sure" "She's staring at me. Right into my eyes?" The boy added unaskedly on. "So?... Is that bad, she's just curious. she's more perseptive then other mules." "Perseptive of what?" "Kid, c'mon is that so important? Get on the cart and be quiet. We can talk later about her. Let's get to the lab first and get that code verified." The boy started moving to the cart not quiting his gaze and so was the mule. *how did she move her head so far back? She was an animal of the old guard, they are the most boring creatures on this planet. They are not big or smart nor do they possess any properties worth breeding them for. But this one was different he was sure. Her speed alone is to be reconned with and in his opinion that wasn't the only thing different about her.* When Ohoka sat on the cart and tried to fluff the straw to sit more comfortably, the cart started darting towards the east side of the city. Again a fast pace unusual for this type of beast but less so that he could remember from last time, just before the darkness took him. 
+
+
 # some reference code
 
 ```js
@@ -341,3 +344,37 @@ animate();
 ```
 
 scroller right and left are seprate functions now.
+```js 
+function init(){
+    window.addEventListener("keydown", (event)=>{
+        if(event.keyCode === 68){
+            event.preventDefault();
+            console.log("lala");
+            playerx+= PLAYERSPEED;
+        }
+    })
+    window.addEventListener("keydown", (event)=>{
+        if(event.keyCode === 81){
+            event.preventDefault();
+            console.log("lala");
+            playerx-= PLAYERSPEED;
+        }
+    })
+    window.addEventListener("keydown", (event)=>{
+        if(event.keyCode === 83){
+            event.preventDefault();
+            console.log("lala");
+            playery+= PLAYERSPEED;
+        }
+    })
+    window.addEventListener("keydown", (event)=>{
+        if(event.keyCode === 90){
+            event.preventDefault();
+            console.log("lala");
+            playery-= PLAYERSPEED;
+        }
+    })
+}
+init();
+```
+better player movements
